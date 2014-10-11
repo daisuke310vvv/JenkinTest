@@ -15,6 +15,7 @@
 		BE614A3419C938D60025056B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE614A3319C938D60025056B /* Images.xcassets */; };
 		BE614A3719C938D60025056B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE614A3519C938D60025056B /* LaunchScreen.xib */; };
 		BE614A4319C938D60025056B /* jenkinsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE614A4219C938D60025056B /* jenkinsTestTests.m */; };
+		BEC9166319E927520024B45F /* GcovTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC9166219E927520024B45F /* GcovTestObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		BE614A3C19C938D60025056B /* jenkinsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jenkinsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE614A4119C938D60025056B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE614A4219C938D60025056B /* jenkinsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jenkinsTestTests.m; sourceTree = "<group>"; };
+		BEC9166119E927520024B45F /* GcovTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GcovTestObserver.h; sourceTree = "<group>"; };
+		BEC9166219E927520024B45F /* GcovTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GcovTestObserver.m; sourceTree = "<group>"; };
 		D3E05E4488764A418D78B8EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,6 +116,8 @@
 			children = (
 				BE614A4219C938D60025056B /* jenkinsTestTests.m */,
 				BE614A4019C938D60025056B /* Supporting Files */,
+				BEC9166119E927520024B45F /* GcovTestObserver.h */,
+				BEC9166219E927520024B45F /* GcovTestObserver.m */,
 			);
 			path = jenkinsTestTests;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC9166319E927520024B45F /* GcovTestObserver.m in Sources */,
 				BE614A4319C938D60025056B /* jenkinsTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
